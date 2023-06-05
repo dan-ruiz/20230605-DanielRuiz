@@ -1,0 +1,31 @@
+273  touch comandos.txt main.js index.html
+274  git init
+275  git remote add origin https://github.com/dan-ruiz/20230605-DanielRuiz.git      
+276  git add .
+277  git status
+278  git commit -m "commit 01 de DanielRuiz"
+279  git push origin main
+280  git branch "feature"
+281  git checkout feature
+282  mkdir Hardware Software SeguridadInformatica
+283  cd Hardware
+284  touch resumen.txt
+285  cd ..
+286  cd SeguridadInformatica
+287  resumen.txt
+288  touch resumen.txt
+289  cd ..
+290  cd Software
+291  touch resumen.txt
+292  git add .
+293  git commit -m "commit 02 de DanielRuiz"
+294  git push origin feature
+295  cd ..
+296  git add .
+297  git commit -m "commit 02 de DanielRuiz"
+298  git add origin feature
+299  git push origin feature
+300  git checkout main
+301  mv main.js resumenHardware.txt
+302  mv index.html resumenSoftware.txt
+303  history
